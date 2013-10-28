@@ -1,0 +1,9 @@
+./src/HoneyDecorator.java:8:	public String makeIcecream() {
+./src/HoneyDecorator.java:9:		return specialIcecream.makeIcecream() + addHoney();
+./src/Icecream.java:4:	public String makeIcecream();
+./src/IcecreamDecorator.java:10:	public String makeIcecream() {
+./src/IcecreamDecorator.java:11:		return specialIcecream.makeIcecream();
+./src/NuttyDecorator.java:8:	public String makeIcecream() {
+./src/NuttyDecorator.java:9:		return specialIcecream.makeIcecream() + addNuts();
+./src/SimpleIcecream.java:4:	public String makeIcecream() {
+./src/TestDecorator.java:6:		System.out.println(icecream.makeIcecream());

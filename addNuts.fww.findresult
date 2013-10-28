@@ -1,0 +1,2 @@
+./src/NuttyDecorator.java:9:		return specialIcecream.makeIcecream() + addNuts();
+./src/NuttyDecorator.java:12:	private String addNuts() {
